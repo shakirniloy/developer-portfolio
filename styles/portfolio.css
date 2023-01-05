@@ -38,7 +38,8 @@ section {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 150px;
+    margin: 0 150px 50px;
+    padding-top: 50px;
 }
 
 nav ul {
