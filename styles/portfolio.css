@@ -199,3 +199,71 @@ hr {
 .section-title {
     margin-bottom: 140px;
 }
+
+.btn {
+    margin: 50px auto 110px auto;
+    display: block;
+}
+
+.footer {
+    padding: 130px 150px;
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 100px;
+}
+
+.connect-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.connect-description {
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin: 20px 0 30px 0;
+}
+
+.message {
+    /* padding-left: 65px; */
+    width: 50%;
+}
+
+.connect {
+    /* padding-right: 65px; */
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.message form input[placeholder] {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.message form textarea {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+.message form .submit-btn {
+    align-self: flex-start;
+}
+
+.icon a {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.msgctt {
+    margin-bottom: 30px;
+}
