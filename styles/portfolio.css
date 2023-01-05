@@ -18,6 +18,10 @@
     padding: 18px 35px;
 }
 
+section {
+    margin-top: 130px;
+}
+
 .header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
@@ -82,7 +86,6 @@ main {
 
 /* about section styles */
 .about {
-    margin-top: 130px;
     padding: 130px 150px;
     background: #FFF8F3;
     border-radius: 10px;
@@ -117,4 +120,82 @@ main {
     font-size: 20px;
     text-align: center;
     color: #474747;
+}
+
+/* what i do styles */
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill .skill-title {
+    margin: 30px 0 25px 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+}
+
+.skill .skill-description {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.section-title-more-margin {
+    margin-bottom: 70px;
+}
+
+/* style resume section */
+.section-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.content-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.edu h4 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+
+.edu-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin: 10px 0 20px 0;
+}
+
+.edu-desc {
+    font-size: 16px;
+    color: #757575;
+}
+
+.cv-details-container {
+    display: flex;
+    gap: 30px;
+}
+
+hr {
+    border-bottom: 0;
+    border: 1px solid #D1D1D1;
+    margin: 30px 0;
+}
+
+.section-title {
+    margin-bottom: 140px;
 }
